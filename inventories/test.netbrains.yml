@@ -1,0 +1,6 @@
+---
+plugin: netbrains
+
+username: "{{ lookup('env', 'NETBRAINS_USERNAME') }}"
+password: "{{ lookup('env', 'NETBRAINS_PASSWORD') }}"
+...
